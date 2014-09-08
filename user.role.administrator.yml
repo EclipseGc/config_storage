@@ -107,3 +107,4 @@ permissions:
     - 'access user profiles'
     - 'access all views'
     - 'administer views'
+    - 'administer git_config'
