@@ -6,14 +6,14 @@ dependencies:
     theme: [bartik]
 id: bartik_powered
 theme: bartik
-region: footer
-weight: 10
+region: '-1'
+weight: -4
 provider: null
 plugin: system_powered_by_block
 settings:
-    visibility: {  }
+    visibility: { request_path: { id: request_path, pages: '', negate: false } }
     id: system_powered_by_block
     label: 'Powered by Drupal'
     provider: system
     label_display: '0'
-    cache: { max_age: 0, contexts: {  } }
+    cache: { max_age: -1, contexts: {  } }

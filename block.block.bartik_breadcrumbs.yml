@@ -7,7 +7,7 @@ dependencies:
 id: bartik_breadcrumbs
 theme: bartik
 region: '-1'
-weight: -5
+weight: -4
 provider: null
 plugin: system_breadcrumb_block
 settings:
