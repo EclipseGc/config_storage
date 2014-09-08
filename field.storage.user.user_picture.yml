@@ -1,0 +1,22 @@
+uuid: 69be4c16-98d3-4f7e-8b1f-31ed1a884e32
+langcode: en
+status: true
+dependencies:
+    module: [image, user]
+id: user.user_picture
+name: user_picture
+entity_type: user
+type: image
+settings:
+    uri_scheme: public
+    default_image: { fid: null, alt: '', title: '', width: null, height: null }
+    target_type: file
+    display_field: false
+    display_default: false
+    target_bundle: null
+module: image
+locked: false
+cardinality: 1
+translatable: false
+indexes:
+    target_id: [target_id]

@@ -1,0 +1,14 @@
+uuid: 5b4ad5a4-2b27-46e4-bd1b-2712b27a5dd5
+langcode: en
+status: true
+dependencies:
+    entity: [taxonomy.vocabulary.tags]
+    module: [taxonomy]
+id: taxonomy_term.tags
+targetEntityType: taxonomy_term
+bundle: tags
+types:
+    - 'schema:Thing'
+fieldMappings:
+    name: { properties: ['schema:name'] }
+    description: { properties: ['schema:description'] }

@@ -1,0 +1,10 @@
+uuid: 60eb254a-4b42-47b3-9d31-49fdb2ad5d4b
+langcode: en
+status: true
+dependencies: {  }
+name: 'Basic page'
+type: page
+description: 'Use <em>basic pages</em> for your static content, such as an ''About us'' page.'
+help: ''
+settings:
+    node: { options: { revision: false }, preview: 1, submitted: false }

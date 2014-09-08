@@ -1,0 +1,15 @@
+uuid: 3180cec6-3ba0-40a4-b15f-95fb3cf0c208
+langcode: en
+status: true
+dependencies:
+    entity: [comment.type.comment, field.instance.comment.comment.comment_body]
+    module: [text]
+id: comment.comment.default
+label: null
+targetEntityType: comment
+bundle: comment
+mode: default
+content:
+    comment_body: { label: hidden, type: text_default, weight: 0, settings: {  }, third_party_settings: {  } }
+    links: { weight: 100 }
+hidden: {  }
