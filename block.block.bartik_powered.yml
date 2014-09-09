@@ -6,12 +6,12 @@ dependencies:
     theme: [bartik]
 id: bartik_powered
 theme: bartik
-region: '-1'
+region: footer
 weight: -4
 provider: null
 plugin: system_powered_by_block
 settings:
-    visibility: { node_type: { id: node_type, bundles: { article: article }, negate: false }, request_path: { id: request_path, pages: '', negate: false } }
+    visibility: { request_path: { id: request_path, pages: '', negate: false } }
     id: system_powered_by_block
     label: 'Powered by Drupal'
     provider: system
