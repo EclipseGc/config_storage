@@ -7,10 +7,13 @@ name: 'Full HTML'
 format: full_html
 weight: 1
 filters:
-    filter_align: { id: filter_align, provider: filter, status: true, weight: 8, settings: {  } }
-    filter_caption: { id: filter_caption, provider: filter, status: true, weight: 9, settings: {  } }
-    filter_htmlcorrector: { id: filter_htmlcorrector, provider: filter, status: true, weight: 10, settings: {  } }
-    editor_file_reference: { id: editor_file_reference, provider: editor, status: true, weight: 11, settings: {  } }
-    filter_html: { id: filter_html, provider: filter, status: false, weight: -10, settings: { allowed_html: '<a> <em> <strong> <cite> <blockquote> <code> <ul> <ol> <li> <dl> <dt> <dd> <h4> <h5> <h6> <s> <sup> <sub> <table> <caption> <tbody> <thead> <tfoot> <th> <td> <tr> <hr> <p> <h1> <h2> <h3> <pre>', filter_html_help: true, filter_html_nofollow: false } }
-    filter_url: { id: filter_url, provider: filter, status: false, weight: 0, settings: { filter_url_length: 72 } }
-    filter_oembed: { id: filter_oembed, provider: oembed, status: true, weight: 0, settings: {  } }
+    filter_align: { id: filter_align, provider: filter, status: true, weight: -50, settings: {  } }
+    filter_caption: { id: filter_caption, provider: filter, status: true, weight: -49, settings: {  } }
+    filter_htmlcorrector: { id: filter_htmlcorrector, provider: filter, status: true, weight: -48, settings: {  } }
+    editor_file_reference: { id: editor_file_reference, provider: editor, status: true, weight: -47, settings: {  } }
+    filter_html: { id: filter_html, provider: filter, status: false, weight: -45, settings: { allowed_html: '<a> <em> <strong> <cite> <blockquote> <code> <ul> <ol> <li> <dl> <dt> <dd> <h4> <h5> <h6> <s> <sup> <sub> <table> <caption> <tbody> <thead> <tfoot> <th> <td> <tr> <hr> <p> <h1> <h2> <h3> <pre>', filter_html_help: true, filter_html_nofollow: false } }
+    filter_url: { id: filter_url, provider: filter, status: false, weight: -42, settings: { filter_url_length: 72 } }
+    filter_oembed: { id: filter_oembed, provider: oembed, status: true, weight: -46, settings: {  } }
+    filter_html_image_secure: { id: filter_html_image_secure, provider: filter, status: false, weight: -41, settings: {  } }
+    filter_html_escape: { id: filter_html_escape, provider: filter, status: false, weight: -44, settings: {  } }
+    filter_autop: { id: filter_autop, provider: filter, status: false, weight: -43, settings: {  } }
