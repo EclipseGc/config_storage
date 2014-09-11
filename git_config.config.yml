@@ -1,0 +1,2 @@
+git_url: 'git@github.com:EclipseGc/config_storage.git'
+private_key: /var/www/.ssh/id_rsa
