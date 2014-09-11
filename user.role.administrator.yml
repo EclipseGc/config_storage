@@ -109,3 +109,4 @@ permissions:
     - 'administer views'
     - 'administer git_config'
     - 'administer oembed providers'
+    - 'administer config_files'
