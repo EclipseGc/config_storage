@@ -15,7 +15,7 @@ settings:
     id: 'block_content:8c3e1564-d54d-472e-a835-534b0f4fd905'
     label: 'FUD Tweet'
     provider: block_content
-    label_display: visible
+    label_display: '0'
     cache: { max_age: -1, contexts: {  } }
     status: true
     info: ''
