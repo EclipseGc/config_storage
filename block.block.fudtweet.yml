@@ -6,8 +6,8 @@ dependencies:
     theme: [bartik]
 id: fudtweet
 theme: bartik
-region: '-1'
-weight: null
+region: sidebar_first
+weight: -5
 provider: null
 plugin: 'block_content:8c3e1564-d54d-472e-a835-534b0f4fd905'
 settings:
