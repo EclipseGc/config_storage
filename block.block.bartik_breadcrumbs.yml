@@ -1,0 +1,19 @@
+uuid: e34d6b2d-c5ea-454f-9308-08dfffe01133
+langcode: en
+status: false
+dependencies:
+    module: [system]
+    theme: [bartik]
+id: bartik_breadcrumbs
+theme: bartik
+region: '-1'
+weight: -4
+provider: null
+plugin: system_breadcrumb_block
+settings:
+    visibility: {  }
+    id: system_breadcrumb_block
+    label: Breadcrumbs
+    provider: system
+    label_display: '0'
+    cache: { max_age: 0, contexts: {  } }
