@@ -1,0 +1,17 @@
+uuid: 713b67cb-93c5-4bd9-9f00-a8640c591fe7
+langcode: en
+status: true
+dependencies:
+    entity: [filter.format.basic_html]
+    module: [ckeditor]
+format: basic_html
+editor: ckeditor
+settings:
+    toolbar: { rows: [[{ name: Formatting, items: [Bold, Italic] }, { name: Linking, items: [DrupalLink, DrupalUnlink] }, { name: Lists, items: [BulletedList, NumberedList] }, { name: Media, items: [Blockquote, DrupalImage] }, { name: Tools, items: [Source] }]] }
+    plugins: { stylescombo: { styles: '' } }
+image_upload:
+    status: true
+    scheme: public
+    directory: inline-images
+    max_size: ''
+    max_dimensions: { width: null, height: null }
