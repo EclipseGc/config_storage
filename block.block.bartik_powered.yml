@@ -1,12 +1,12 @@
 uuid: b905ea5c-470d-4173-8219-2544ef7c3ff8
 langcode: en
-status: false
+status: true
 dependencies:
     module: [system]
     theme: [bartik]
 id: bartik_powered
 theme: bartik
-region: '-1'
+region: footer
 weight: -4
 provider: null
 plugin: system_powered_by_block
