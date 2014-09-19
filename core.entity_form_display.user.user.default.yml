@@ -1,4 +1,4 @@
-uuid: e472a17a-7c03-4dc1-9b00-f479b1ae6c98
+uuid: b23ce014-f029-4e04-8703-031918b74fe7
 langcode: en
 status: true
 dependencies:
@@ -14,3 +14,4 @@ content:
     contact: { weight: 5 }
     timezone: { weight: 6 }
 hidden: {  }
+third_party_settings: {  }

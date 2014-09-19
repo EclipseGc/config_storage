@@ -1,9 +1,9 @@
-uuid: d3ce69da-7f54-40b1-935a-905de8a19e69
+uuid: 5a9c6c42-09ff-4895-bd07-7ec954b01208
 langcode: en
 status: true
 dependencies:
     entity: [core.entity_view_mode.node.teaser, field.instance.node.page.body, node.type.page]
-    module: [text]
+    module: [text, user]
 id: node.page.teaser
 label: null
 targetEntityType: node
@@ -14,3 +14,4 @@ content:
     body: { label: hidden, type: text_summary_or_trimmed, weight: 101, settings: { trim_length: 600 }, third_party_settings: {  } }
 hidden:
     langcode: true
+third_party_settings: {  }

@@ -1,9 +1,9 @@
-uuid: ea27b622-e0e1-47ab-8a00-e651e11c8e9f
+uuid: 7f3bd010-aad4-4f8e-a200-b9020b0ee22a
 langcode: en
 status: true
 dependencies:
     entity: [core.entity_view_mode.node.teaser, field.instance.node.article.body, field.instance.node.article.comment, field.instance.node.article.field_image, field.instance.node.article.field_tags, node.type.article]
-    module: [image, taxonomy, text]
+    module: [image, taxonomy, text, user]
 id: node.article.teaser
 label: null
 targetEntityType: node
@@ -19,3 +19,4 @@ hidden:
     field_image: true
     field_tags: true
     comment: true
+third_party_settings: {  }

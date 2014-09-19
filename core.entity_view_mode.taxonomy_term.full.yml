@@ -1,8 +1,8 @@
 id: taxonomy_term.full
-uuid: 48473460-780d-4f8f-9800-f0ba28956e62
+uuid: adb08a30-7b49-4bd7-a124-36beb0c35593
 label: 'Taxonomy term page'
 targetEntityType: taxonomy_term
-status: false
+status: true
 cache: true
 langcode: en
 dependencies:

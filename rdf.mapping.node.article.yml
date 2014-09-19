@@ -1,4 +1,4 @@
-uuid: 65b967da-9b58-470b-8300-ceaba222eb60
+uuid: b1e3aa10-fb17-40b2-8a29-410614552eb4
 langcode: en
 status: true
 dependencies:
@@ -11,8 +11,8 @@ types:
     - 'schema:Article'
 fieldMappings:
     title: { properties: ['schema:name'] }
-    created: { properties: ['schema:dateCreated'], datatype_callback: { callable: date_iso8601 } }
-    changed: { properties: ['schema:dateModified'], datatype_callback: { callable: date_iso8601 } }
+    created: { properties: ['schema:dateCreated'], datatype_callback: { callable: 'Drupal\rdf\CommonDataConverter::dateIso8601Value' } }
+    changed: { properties: ['schema:dateModified'], datatype_callback: { callable: 'Drupal\rdf\CommonDataConverter::dateIso8601Value' } }
     body: { properties: ['schema:text'] }
     uid: { properties: ['schema:author'] }
     comment: { properties: ['schema:comment'], mapping_type: rel }

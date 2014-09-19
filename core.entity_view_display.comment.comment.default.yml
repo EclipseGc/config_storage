@@ -1,4 +1,4 @@
-uuid: 3180cec6-3ba0-40a4-b15f-95fb3cf0c208
+uuid: a68ab09c-709f-4b7b-9d01-1bff3103b0c2
 langcode: en
 status: true
 dependencies:
@@ -13,3 +13,4 @@ content:
     comment_body: { label: hidden, type: text_default, weight: 0, settings: {  }, third_party_settings: {  } }
     links: { weight: 100 }
 hidden: {  }
+third_party_settings: {  }

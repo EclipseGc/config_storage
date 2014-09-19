@@ -1,9 +1,9 @@
-uuid: 019603d1-6542-40cf-bb00-e95ea716a99b
+uuid: 876acda1-0cf8-4dd1-9c35-532f7babe050
 langcode: en
 status: true
 dependencies:
     entity: [field.instance.node.article.body, field.instance.node.article.comment, field.instance.node.article.field_image, field.instance.node.article.field_tags, node.type.article]
-    module: [comment, image, taxonomy, text]
+    module: [comment, image, taxonomy, text, user]
 id: node.article.default
 label: null
 targetEntityType: node
@@ -19,3 +19,4 @@ hidden:
     langcode: true
     field_image: true
     field_tags: true
+third_party_settings: {  }

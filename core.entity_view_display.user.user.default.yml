@@ -1,4 +1,4 @@
-uuid: 5effec22-ad06-495a-a30a-10fa5453dd8b
+uuid: 88d5a5f8-c110-4e0b-9800-e8e14c1cd026
 langcode: en
 status: true
 dependencies:
@@ -12,3 +12,4 @@ content:
     user_picture: { type: image, weight: 0, settings: { image_style: thumbnail, image_link: content }, third_party_settings: {  }, label: hidden }
     member_for: { weight: 5 }
 hidden: {  }
+third_party_settings: {  }

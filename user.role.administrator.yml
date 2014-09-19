@@ -1,4 +1,4 @@
-uuid: 1f23b501-e5aa-46bd-8100-c7f71d7625f4
+uuid: 2f706ca8-b461-4a32-bb50-80e3d056e73b
 langcode: en
 status: true
 dependencies: {  }
@@ -20,7 +20,6 @@ permissions:
     - 'access site-wide contact form'
     - 'access user contact forms'
     - 'access contextual links'
-    - 'administer display modes'
     - 'administer comment display'
     - 'administer comment fields'
     - 'administer comment form display'
@@ -42,6 +41,7 @@ permissions:
     - 'administer user display'
     - 'administer user fields'
     - 'administer user form display'
+    - 'administer display modes'
     - 'access files overview'
     - 'administer filters'
     - 'use text format basic_html'
@@ -107,6 +107,5 @@ permissions:
     - 'access user profiles'
     - 'access all views'
     - 'administer views'
-    - 'administer git_config'
-    - 'administer oembed providers'
     - 'administer config_files'
+    - 'administer git_config'
