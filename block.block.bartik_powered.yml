@@ -1,0 +1,19 @@
+uuid: b905ea5c-470d-4173-8219-2544ef7c3ff8
+langcode: en
+status: false
+dependencies:
+    module: [system]
+    theme: [bartik]
+id: bartik_powered
+theme: bartik
+region: '-1'
+weight: -4
+provider: null
+plugin: system_powered_by_block
+settings:
+    visibility: {  }
+    id: system_powered_by_block
+    label: 'Powered by Drupal'
+    provider: system
+    label_display: '0'
+    cache: { max_age: 0, contexts: {  } }
