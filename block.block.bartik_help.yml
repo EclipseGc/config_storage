@@ -1,8 +1,8 @@
-uuid: 86548e29-2532-4948-9346-70e531544d93
+uuid: d9dab6ef-cb30-4ae8-ae13-19f35d4885f1
 langcode: en
 status: true
 dependencies:
-    module: [system]
+    module: [node, system, user]
     theme: [bartik]
 id: bartik_help
 theme: bartik
@@ -11,9 +11,10 @@ weight: 0
 provider: null
 plugin: system_help_block
 settings:
-    visibility: {  }
     id: system_help_block
     label: 'System Help'
     provider: system
     label_display: '0'
     cache: { max_age: -1, contexts: {  } }
+    visibility: {  }
+visibility: {  }

@@ -1,9 +1,9 @@
-uuid: 91a7885b-dc3c-4e5b-bf30-48d30fee47b5
+uuid: 021c83fb-0e80-4930-9800-c9762f9b06d3
 langcode: en
 status: true
 dependencies:
     entity: [system.menu.tools]
-    module: [system]
+    module: [node, system, user]
     theme: [bartik]
 id: bartik_tools
 theme: bartik
@@ -12,7 +12,6 @@ weight: 0
 provider: null
 plugin: 'system_menu_block:tools'
 settings:
-    visibility: {  }
     id: 'system_menu_block:tools'
     label: Tools
     provider: system
@@ -20,3 +19,5 @@ settings:
     cache: { max_age: -1, contexts: {  } }
     level: 1
     depth: 0
+    visibility: {  }
+visibility: {  }

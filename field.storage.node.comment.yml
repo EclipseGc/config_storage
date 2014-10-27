@@ -1,10 +1,10 @@
-uuid: 9f4a6885-9ebd-4723-bc03-3a7603eaced0
+uuid: 77597f33-1090-4557-9211-17d3c93b8ee0
 langcode: en
 status: true
 dependencies:
     module: [comment, node]
 id: node.comment
-name: comment
+field_name: comment
 entity_type: node
 type: comment
 settings:

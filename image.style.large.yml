@@ -1,9 +1,9 @@
-uuid: 12cba623-ae93-4fe8-ab11-17cc108dbd95
+uuid: a6306b13-40eb-4bf7-872b-43f5c5b71696
 langcode: en
 status: true
 dependencies: {  }
 name: large
-label: 'Large (480x480)'
+label: 'Large (480×480)'
 effects:
     ddd73aa7-4bd6-4c85-b600-bdf2b1628d1d: { uuid: ddd73aa7-4bd6-4c85-b600-bdf2b1628d1d, id: image_scale, weight: 0, data: { width: 480, height: 480, upscale: false } }
 third_party_settings: {  }

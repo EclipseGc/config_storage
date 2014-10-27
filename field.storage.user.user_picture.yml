@@ -1,10 +1,10 @@
-uuid: 0c9a3323-92ef-40c7-9708-8e76a7053175
+uuid: d86bdb64-4809-4ff1-8430-4850e594e1f4
 langcode: en
 status: true
 dependencies:
     module: [image, user]
 id: user.user_picture
-name: user_picture
+field_name: user_picture
 entity_type: user
 type: image
 settings:

@@ -1,8 +1,8 @@
-uuid: f87e0810-439e-4a9e-a000-ec279ced9bb4
+uuid: 39c09a4d-6318-46c1-aa00-c23ce340f9db
 langcode: en
 status: true
 dependencies:
-    entity: [field.instance.node.page.body, node.type.page]
+    entity: [field.field.node.page.body, node.type.page]
     module: [entity_reference, path, text]
 id: node.page.default
 targetEntityType: node

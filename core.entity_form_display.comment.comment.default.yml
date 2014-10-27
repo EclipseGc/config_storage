@@ -1,8 +1,8 @@
-uuid: 77454779-e1ea-44f1-8600-b9e5aad3d70e
+uuid: 989a716e-afbc-4e12-b900-f668a231b3b9
 langcode: en
 status: true
 dependencies:
-    entity: [comment.type.comment, field.instance.comment.comment.comment_body]
+    entity: [comment.type.comment, field.field.comment.comment.comment_body]
     module: [text]
 id: comment.comment.default
 targetEntityType: comment

@@ -1,8 +1,8 @@
-uuid: 5a9c6c42-09ff-4895-bd07-7ec954b01208
+uuid: e7c7a822-9cd3-4dbf-b600-b0d61c6344c0
 langcode: en
 status: true
 dependencies:
-    entity: [core.entity_view_mode.node.teaser, field.instance.node.page.body, node.type.page]
+    entity: [core.entity_view_mode.node.teaser, field.field.node.page.body, node.type.page]
     module: [text, user]
 id: node.page.teaser
 label: null

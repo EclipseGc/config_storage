@@ -1,10 +1,10 @@
-uuid: 52f65456-f761-4689-b704-4d4e6d60ced6
-langcode: und
+uuid: d5182f9d-f793-4080-ac00-ae8b65aee209
+langcode: en
 status: true
 dependencies:
     module: [node, taxonomy]
 id: node.field_tags
-name: field_tags
+field_name: field_tags
 entity_type: node
 type: taxonomy_term_reference
 settings:

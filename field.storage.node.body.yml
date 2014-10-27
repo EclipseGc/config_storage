@@ -1,10 +1,10 @@
-uuid: 3fe3dff9-034a-4481-9100-bb701c3afc5f
+uuid: d42855ae-76d9-41ae-a200-f611349f5949
 langcode: en
 status: true
 dependencies:
     module: [node, text]
 id: node.body
-name: body
+field_name: body
 entity_type: node
 type: text_with_summary
 settings: {  }

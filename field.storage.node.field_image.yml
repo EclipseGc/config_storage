@@ -1,10 +1,10 @@
-uuid: 5fab2c63-c96a-411b-9700-dc4123ff18ac
-langcode: und
+uuid: f3884f4b-07f0-4f7e-b600-cbf274ad5c1d
+langcode: en
 status: true
 dependencies:
     module: [image, node]
 id: node.field_image
-name: field_image
+field_name: field_image
 entity_type: node
 type: image
 settings:

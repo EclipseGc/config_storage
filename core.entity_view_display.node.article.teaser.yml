@@ -1,8 +1,8 @@
-uuid: 7f3bd010-aad4-4f8e-a200-b9020b0ee22a
+uuid: 50bf14f4-6dcb-40c8-8b54-84cb85f2e9fa
 langcode: en
 status: true
 dependencies:
-    entity: [core.entity_view_mode.node.teaser, field.instance.node.article.body, field.instance.node.article.comment, field.instance.node.article.field_image, field.instance.node.article.field_tags, node.type.article]
+    entity: [core.entity_view_mode.node.teaser, field.field.node.article.body, field.field.node.article.comment, field.field.node.article.field_image, field.field.node.article.field_tags, node.type.article]
     module: [image, taxonomy, text, user]
 id: node.article.teaser
 label: null

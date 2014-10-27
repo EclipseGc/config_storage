@@ -1,8 +1,8 @@
-uuid: b5efa771-937d-4090-af13-198314e3e820
+uuid: 1a232ab7-601d-47fe-bb00-a79ee284f0e0
 langcode: en
 status: true
 dependencies:
-    module: [user]
+    module: [node, system, user]
     theme: [bartik]
 id: bartik_login
 theme: bartik
@@ -11,9 +11,10 @@ weight: 0
 provider: null
 plugin: user_login_block
 settings:
-    visibility: {  }
     id: user_login_block
     label: 'User login'
     provider: user
     label_display: visible
     cache: { max_age: 0, contexts: {  } }
+    visibility: {  }
+visibility: {  }

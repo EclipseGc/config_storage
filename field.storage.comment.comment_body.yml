@@ -1,10 +1,10 @@
-uuid: 311843b3-32fc-471e-9d00-d956a86f22c6
+uuid: b33a1491-4eb8-4325-a405-05c0207eab2d
 langcode: en
 status: true
 dependencies:
     module: [comment, text]
 id: comment.comment_body
-name: comment_body
+field_name: comment_body
 entity_type: comment
 type: text_long
 settings: {  }

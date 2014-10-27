@@ -1,8 +1,8 @@
-uuid: 2563a84c-d52a-465d-9e04-4c77fe913eff
+uuid: d6589086-ead1-40da-be40-64346fdcdca3
 langcode: en
 status: true
 dependencies:
-    entity: [field.instance.node.page.body, node.type.page]
+    entity: [field.field.node.page.body, node.type.page]
     module: [text, user]
 id: node.page.default
 label: null

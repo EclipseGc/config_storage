@@ -1,4 +1,4 @@
-uuid: 2f706ca8-b461-4a32-bb50-80e3d056e73b
+uuid: 1657ff43-59ec-42a2-8d05-5b81f136a04f
 langcode: en
 status: true
 dependencies: {  }
@@ -32,9 +32,6 @@ permissions:
     - 'administer block_content display'
     - 'administer block_content fields'
     - 'administer block_content form display'
-    - 'administer menu_link_content display'
-    - 'administer menu_link_content fields'
-    - 'administer menu_link_content form display'
     - 'administer taxonomy_term display'
     - 'administer taxonomy_term fields'
     - 'administer taxonomy_term form display'
@@ -107,6 +104,10 @@ permissions:
     - 'access user profiles'
     - 'access all views'
     - 'administer views'
-    - 'administer config_files'
-    - 'administer git_config'
-    - 'administer oembed providers'
+    - 'administer unit tests'
+    - 'administer languages'
+    - 'administer content translation'
+    - 'create content translations'
+    - 'delete content translations'
+    - 'update content translations'
+    - 'translate any entity'

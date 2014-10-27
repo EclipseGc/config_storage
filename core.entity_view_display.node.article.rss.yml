@@ -1,8 +1,8 @@
-uuid: debc0157-6aa4-4937-a600-f988f110770c
+uuid: b232cf5f-9781-4c97-a900-f812399e391d
 langcode: en
 status: true
 dependencies:
-    entity: [core.entity_view_mode.node.rss, field.instance.node.article.body, field.instance.node.article.comment, field.instance.node.article.field_image, field.instance.node.article.field_tags, node.type.article]
+    entity: [core.entity_view_mode.node.rss, field.field.node.article.body, field.field.node.article.comment, field.field.node.article.field_image, field.field.node.article.field_tags, node.type.article]
     module: [user]
 id: node.article.rss
 label: null
